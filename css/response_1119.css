@@ -1,0 +1,191 @@
+@media (max-width: 1119px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .blocks.row
+    {
+        margin-left: -20px;
+    }
+
+    .blocks.row > *
+    {
+        margin-left: 20px;
+    }
+
+    .blocks.row > *.width1of3
+    {
+        width: calc(33.333% - 20px);
+    }
+
+    .blocks.row > *.width2of3
+    {
+        width: calc(66.666% - 20px);
+    }
+
+    .blocks.row > *.width3of3
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .block_data
+    {
+        padding: 20px;
+    }
+
+
+    .block_data .block_title
+    {
+        font-size: 22px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .block_data > .head
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .block_data .empty
+    {
+        padding: 25px;
+    }
+
+    .block_data .empty > .icon
+    {
+        margin-bottom: 15px;
+    }
+
+    .block_data .empty .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        margin-bottom: 35px;
+        padding: 10px 0;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .stats .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .stats .item
+    {
+        font-size: 17px;
+        line-height: 19px;
+
+        padding: 25px 90px 25px 25px;
+    }
+
+    .stats .item .val
+    {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .stats .item .icon
+    {
+        right: 25px;
+    }
+
+
+
+    /*---------------
+        Companies
+    ---------------*/
+    .companies table td
+    {
+        padding: 15px 10px;
+    }
+
+    .companies table td.name br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Company info
+    ------------------*/
+    .company_info .head
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .company_info .ad_preview
+    {
+        margin: 0 -21px -21px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

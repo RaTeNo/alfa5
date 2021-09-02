@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#030AAC">
+		<meta name="theme-color" content="#030AAC">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/chartist.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/socialstory.css">
+
+		<link rel="stylesheet" href="css/response_1119.css" media="(max-width: 1119px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont">
+						<div class="header_top row">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+								<div class="name"><span>alfaposting</span></div>
+							</div>
+							<div class="langs">
+								<select name="">
+									<option value="1" data-content="<img src='images/lang_rus.svg' alt=''></option><span>RUS</span>" selected></option>
+	
+									<option value="2" data-content="<img src='images/lang_eng.svg' alt=''></option><span>ENG</span>"></option>
+	
+									<option value="3" data-content="<img src='images/lang_usa.svg' alt=''></option><span>USA</span>"></option>
+								</select>
+							</div>
+							
+							<div class="header_btn">
+								<a href="/" class="deposit_btn btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+									<span>Оплатить</span>
+								</a>
+								<a href="/" class="support_btn btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_support"></use></svg>
+									<span>Поддержка</span>
+								</a>	
+								<a href="/" class="settings_btn btn circle">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_settings"></use></svg>
+								</a>
+								<button class="logout_btn btn circle">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_logout"></use></svg>
+								</button>
+							</div>
+						</div>
+
+						<div class="header_bottom row">
+							<div class="header_bottom_links">
+								<a href="#">Планировщик постов</a>
+								<a href="#" class="active">Перехват клиентов</a>
+								<a href="#">Промо-сайт</a>
+							</div>
+							<div class="balance">
+								Подписка оплачена до: <b>14 августа 2021</b>
+							</div>
+							<div class="balance_mob" style="display: none;">
+								<div class="balance_mob-text">Подписка до:</div>
+								<div class="balance_mob-date">14.08.2021</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+				<section class="counter">
+					<div class="cont">
+						<div class="counter_items">
+							<div class="counter_item">
+								<div class="counter_item-number">152</div>
+								<div class="counter_item-text">Конкурентов на перехвате</div>
+								<div class="counter_item-icon">
+									<img src="images/counter1.svg" alt="">
+								</div>
+							</div>
+							<div class="counter_item">
+								<div class="counter_item-number">5</div>
+								<div class="counter_item-text">Найдено клиентов на этой неделе</div>
+								<div class="counter_item-icon">
+									<img src="images/counter2.svg" alt="">
+								</div>
+							</div>
+							<div class="counter_item">
+								<div class="counter_item-number">1.292</div>
+								<div class="counter_item-text">Действия на этой неделе</div>
+								<div class="counter_item-icon">
+									<img src="images/counter3.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="account">
+					<div class="cont">
+						<div class="account_title perekhvat_title">Ваши аккаунты</div>
+						<div class="account_links">
+							<a href="#" class="account_links-item">
+								<div class="account_links-avatar">
+									<img src="images/account_avatar1.png" alt="">
+								</div>
+								<div class="account_links-name">Иван Петрович</div>
+							</a>
+							<a href="#" class="account_links-item">
+								<div class="account_links-avatar">
+									<img src="images/account_avatar2.png" alt="">
+								</div>
+								<div class="account_links-name">Анатолий Иванович</div>
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<section class="competitor">
+					<div class="cont">
+						<div class="block_title">
+							<div class="competitor_title perekhvat_title">Конкуренты</div>
+							<button class="btn circle modal_link" data-content="#competitor_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+							</button>
+						</div>
+						<div class="competitor_links">
+							<a href="#" class="competitor_links-item">
+								<div class="competitor_links-avatar">
+									<img src="images/account_avatar2.png" alt="">
+								</div>
+								<div class="competitor_links-name">Анатолий Иванович</div>
+							</a>
+							<a href="#" class="competitor_links-item">
+								<div class="competitor_links-avatar">
+									<img src="images/account_avatar2.png" alt="">
+								</div>
+								<div class="competitor_links-name">Анатолий </div>
+							</a>
+							<a href="#" class="competitor_links-item">
+								<div class="competitor_links-avatar">
+									<img src="images/account_avatar2.png" alt="">
+								</div>
+								<div class="competitor_links-name">Анатолий </div>
+							</a>
+							<a href="#" class="competitor_links-item">
+								<div class="competitor_links-avatar">
+									<img src="images/account_avatar2.png" alt="">
+								</div>
+								<div class="competitor_links-name">Анатолий </div>
+							</a>
+							<a href="#" class="competitor_links-item">
+								<div class="competitor_links-avatar">
+									<img src="images/account_avatar2.png" alt="">
+								</div>
+								<div class="competitor_links-name">Анатолий Иванович</div>
+							</a>
+							<a href="#" class="competitor_links-item">
+								<div class="competitor_links-avatar">
+									<img src="images/account_avatar2.png" alt="">
+								</div>
+								<div class="competitor_links-name">Анатолий </div>
+							</a>
+							<a href="#" class="competitor_links-item">
+								<div class="competitor_links-avatar">
+									<img src="images/account_avatar2.png" alt="">
+								</div>
+								<div class="competitor_links-name">Анатолий Иванович</div>
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<section class="client">
+					<div class="cont">
+						<div class="client_wrap">
+							<div class="block_title">
+								<div class="client_title perekhvat_title">Перехваченные клиенты (543)</div>
+								<div class="sort">
+									<select name="" style="display: none;">
+										<option value="0">За все время</option>
+										<option value="1">За день</option>
+										<option value="2">За неделю</option>
+										<option value="3">За месяц</option>
+									</select><div class="nice-select" tabindex="0"><div class="current">За все время</div><div class="list"><div class="scrollbar"><div class="list_item option selected" data-value="0">За все время</div><div class="list_item option" data-value="1">За день</div><div class="list_item option" data-value="2">За неделю</div><div class="list_item option" data-value="3">За месяц</div></div></div></div>
+								</div>
+							</div>
+							<div class="table_wrap">
+								<table>
+									<thead>
+										<tr>
+											<th>
+												Время
+											</th>
+											<th>
+												Имя
+											</th>
+											<th>
+												Конкурент
+											</th>
+											<th>
+												Ссылка
+											</th>
+											<th>
+												Подписка
+											</th>
+											<th>
+												Сторис
+											</th>
+											<th>
+												Лайк
+											</th>
+											<th>
+												Коммент
+											</th>
+											<th>
+												ЛС
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												25.08.21 в 18:43
+											</td>
+											<td>
+												<a href="">
+													<div class="avatar">
+														<img src="images/account_avatar2.png" alt="">
+													</div>
+													<div>Александр Иванович</div>
+												</a>
+											</td>
+											<td>
+												<a href="">
+													<div class="avatar">
+														<img src="images/account_avatar4.png" alt="">
+													</div>
+													<div>Александр Иванович</div>
+												</a>
+											</td>
+											<td>
+												<a href="#" class="open">Открыть</a>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												25.08.21 в 18:43
+											</td>
+											<td>
+												<a href="">
+													<div class="avatar">
+														<img src="images/account_avatar2.png" alt="">
+													</div>
+													<div>Александр Иванович</div>
+												</a>
+											</td>
+											<td>
+												<a href="">
+													<div class="avatar">
+														<img src="images/account_avatar4.png" alt="">
+													</div>
+													<div>Александр Иванович</div>
+												</a>
+											</td>
+											<td>
+												<a href="#" class="open">Открыть</a>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/no.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok tooltip">
+													<img src="images/no.svg" alt="">
+													<span class="tooltiptext">Профиль закрыт</span>
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/no.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/loading.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/attention.svg" alt="">
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												25.08.21 в 18:43
+											</td>
+											<td>
+												<a href="">
+													<div class="avatar">
+														<img src="images/account_avatar2.png" alt="">
+													</div>
+													<div>Александр Иванович</div>
+												</a>
+											</td>
+											<td>
+												<a href="">
+													<div class="avatar">
+														<img src="images/account_avatar4.png" alt="">
+													</div>
+													<div>Александр Иванович</div>
+												</a>
+											</td>
+											<td>
+												<a href="#" class="open">Открыть</a>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													<img src="images/ok.svg" alt="">
+												</div>
+											</td>
+											<td>
+												<div class="client_ok">
+													—
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="intercepted-clients">
+					<div class="cont">
+						<div class="wrapper">
+							<div class="block_title">
+								<div class="intercepted-clients_title perekhvat_title">Перехваченные клиенты</div>
+								<div class="sort">
+									<select name="" style="display: none;">
+										<option value="0">За все время</option>
+										<option value="1">За день</option>
+										<option value="2">За неделю</option>
+										<option value="3">За месяц</option>
+									</select><div class="nice-select" tabindex="0"><div class="current">За все время</div><div class="list"><div class="scrollbar"><div class="list_item option selected" data-value="0">За все время</div><div class="list_item option" data-value="1">За день</div><div class="list_item option" data-value="2">За неделю</div><div class="list_item option" data-value="3">За месяц</div></div></div></div>
+								</div>
+							</div>
+							<div class="emptys">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_filter"></use></svg>
+								</div>
+								<div class="emptys_title">В этом фильтре<br> ничего нет</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+			</div>
+
+			<footer>
+				<div class="cont">
+					<div class="row">
+						<div class="logo">
+							<img src="images/logo2.svg" alt="">
+							<div class="name">alfatarget.com</div>
+						</div>
+
+						<div class="phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							<a href="tel:88001231213">8(800)123-12-13</a>
+						</div>
+
+						<div class="email">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+							<a href="mailto:info@alfatarget.com">info@alfatarget.com</a>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="copyright">Copyright &copy; 2020 alfatarget.com Все права защищены</div>
+						<div class="privacy_ploicy">
+							<a href="/">Политика конфедициальности</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<div class="overlay"></div>
+		</div>
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+		<section class="modal-competitor" id="competitor_modal" style="display: none;">
+			<div class="modal_title">Добавить конкурента</div>
+			<div class="modal_desc">Введите ссылку на сайт или группу ВК</div>
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<input type="text" placeholder="Значение поля">
+					</div>
+					
+					<div class="submit">
+						<button type="submit" class="send_btn btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+							<span>Добавить конкурента</span>
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		
+
+		<div id="storytime"></div>
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/row-grid.min.js"></script>
+		<script src="js/chartist.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/file.js"></script>
+		<script src="js/socialstory.js"></script>
+		<script>
+			var myPlaylist = [
+			{
+				"title": "Social Story",
+				"date": "2 hours ago",
+				"url": "media/IMG_4627.mov",
+				"icon": "media/small-icon.jpg"
+			},
+			{
+				"title": "Social Story",
+				"date": "1 day ago",
+				"url": "media/IMG_4628.mov",
+				"icon": "media/small-icon.jpg"
+			},
+			{
+				"title": "Social Story",
+				"date": "1 day ago",
+				"url": "media/IMG_4629.mov",
+				"icon": "media/small-icon.jpg"
+			}
+			];
+
+			var socialStory = new Story({
+				playlist: myPlaylist
+			});
+
+		  </script>
+	</body>
+</html>

@@ -1,0 +1,486 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 22px;
+    }
+
+
+    .block_data > .head .sort
+    {
+        width: calc(100%);
+    }
+
+    .block_data > .head .nice-select .current{
+        width: calc(100% - 20px);
+    }
+
+
+
+    .block_data .chart
+    {
+        width: calc(100% + 43px);
+        height: 200px;
+        margin: 0 -15px -15px -28px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    header .logo img
+    {
+        width: 33px;
+    }
+
+
+    header .btn
+    {
+        margin-left: 0px;
+        margin-right: 8px;
+    }
+
+
+
+    header .balance
+    {
+        margin-left: 15px;
+    }
+
+    header .balance b
+    {
+        font-size: 16px;
+        line-height: 16px;
+
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .service .field
+    {
+        margin-bottom: -15px;
+        margin-left: -20px;
+    }
+
+    .form .service .field > *
+    {
+        max-width: calc(100% - 20px);
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+
+
+    .form .file label
+    {
+        width: 148px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        padding: 15px 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*---------------
+        Companies
+    ---------------*/
+    .companies table td
+    {
+        width: 100%;
+        padding: 36px 15px 15px;
+    }
+
+    .companies table td:before
+    {
+        padding: 0 15px;
+    }
+
+
+
+    /*------------
+        Dialog
+    ------------*/
+    .dialog .messages .message .text_block
+    {
+        line-height: 18px;
+
+        padding: 15px;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .data
+    {
+        padding: 30px 25px 30px;
+    }
+
+    .auth .logo
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+
+
+    /*--------------
+        Settings
+    --------------*/
+    .settings .info
+    {
+        line-height: 20px;
+    }
+
+    .settings .info .val
+    {
+        width: 100%;
+        margin: 2px 0 0;
+    }
+
+
+
+    /*------------------
+        Company info
+    ------------------*/
+    .company_info table.folds tr
+    {
+        padding: 15px;
+    }
+
+
+    .company_info .ad_preview
+    {
+        padding: 0;
+    }
+
+
+
+    /*------------
+        Button
+    ------------*/
+    .btn
+    {
+        font-size: 13px;
+        line-height: 22px;
+
+        height: 36px;
+        padding: 0 11px 0 7px;
+    }
+
+    .btn.circle
+    {
+        width: 36px;
+        flex-shrink: 0;
+    }
+
+    .btn .icon
+    {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+
+    .btn.support_btn .icon
+    {
+        width: 16px;
+        height: 17px;
+    }
+
+    .btn.logout_btn .icon
+    {
+        width: 16px;
+        height: 17px;
+    }
+
+    .btn.refresh_btn .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    .btn.save_btn .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    .btn.file_btn .icon
+    {
+        width: 11px;
+        height: 18px;
+    }
+
+    .btn.edit_btn .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+    /*-----------
+        Langs
+    -----------*/
+    .langs .nice-select .current img
+    {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+
+    .langs .nice-select .current
+    {
+        font-size: 10px;
+        line-height: 16px;
+
+        height: 26px;
+        padding: 0 12px 0 4px;
+    }
+
+    .langs .nice-select .current:after {
+        top: -2px;
+        right: 4px;
+        width: 5px;
+        height: 5px;
+        border-bottom: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+    }
+
+
+    .langs .nice-select .list .list_item
+    {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .langs .nice-select .list .list_item img
+    {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .phone
+    {
+        margin-left: 0;
+    }
+
+    footer .email
+    {
+        margin-right: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 35px 20px 20px;
+    }
+    .modal .row {
+        flex-direction: column;
+    }
+    .modal .form .columns > * {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+    .company_info .ad_preview  .gallery .last-row{
+        width: 100% !important;
+    }
+
+    .company_info .ad_preview .example8, .company_info .ad_preview .example9{
+        padding: 0 20px;
+    }
+
+    .company_info .ad_preview{
+        padding-bottom:20px;
+    }
+
+    .form .file .field{
+    	flex-wrap: wrap;
+    }
+
+    .form .file .selected{
+    	margin-top:20px;
+    }
+    .modal_correction .form .send_btn {
+        width: 110px;
+    }
+    .links_container .block_text {
+        display: none;
+    }
+    .links_container .links a {
+        font-size: 13px;
+    }
+    .block_box-account .block_box-account-img.dn {
+        display: none;
+    }
+    .block_data > .head .block_title {
+        margin-right: 0;
+    }
+    .block .block_data .block_title {
+        justify-content: space-between;
+    }
+    .password {
+        padding: 0;
+    }
+    .block_data .empty .btn {
+        width: 280px;
+    }
+    .links_container .links a {
+        margin-right: 6px;
+    }
+    .logo .name {
+        font-size: 18px;
+        letter-spacing: -0.29px;
+    }
+    header .logo img {
+        width: 18px;
+        height: 19px;
+    }
+    header .balance {
+        display: none !important;
+    }
+    header .balance_mob {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: normal;
+        line-height: 15px;
+        color: #80b2ff;
+        margin-left: 0px;
+        margin-top: 12px;
+        width: 100%;
+    }
+    header .balance_mob .balance_mob-date {
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: -0.81px;
+        line-height: 20px;
+        color: #001737;
+        margin-left: auto;
+    }
+    header {
+        margin-bottom: 24px;
+        padding: 15px 0 20px;
+    }
+    .block_box-account-img {
+        display: none;
+    }
+    .block_box-social {
+        display: none !important;
+    }
+    .block_box-social-mob {
+        display: block  !important;
+    }
+    .block_box-social-mob img {
+        width: 26px;
+        height: 25px;
+    }
+    .block_box-account-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cont {
+        padding: 0 15px;
+    }
+    .client .wrapper,
+    .intercepted-clients .wrapper {
+        padding: 16px 16px 40px;
+    }
+    .client .block_title,
+    .intercepted-clients .block_title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .client_title,
+    .intercepted-clients_title {
+        margin-bottom: 15px;
+    }
+    .client .sort, 
+    .intercepted-clients .sort {
+        width: 100%;
+    }
+    .intercepted-clients .block_title {
+        margin-bottom: 40px;
+    }
+    .perekhvat-info_wrapper .send_btn {
+        display: flex !important;
+        margin: 20px auto 0;
+    }
+    .perekhvat-info_wrapper-text {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .settings_btn.btn.circle{
+        margin-left:auto;
+    }
+
+    .header_btn{
+        width: 100%;
+    }
+
+}

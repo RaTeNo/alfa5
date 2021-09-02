@@ -1,0 +1,17 @@
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="11" cy="11" r="11" fill="#B7B7B7"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="22" height="22">
+<circle cx="11" cy="11" r="11" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M-6 0H29V22H-6V0Z" fill="#3F51B5"/>
+<path d="M-6 3.23637L10.5166 13L13 9.06968L-2.3427 0H-6V3.23637Z" fill="white"/>
+<path d="M28 0H25.1681L10 9.06891L12.4545 13L28 3.70464V0Z" fill="white"/>
+<path d="M12.4545 8L10 12.0431L26.1882 22H28V17.5613L12.4545 8Z" fill="white"/>
+<path d="M-6 18.0446V22H-3.37291L13 12.0439L10.5174 8L-6 18.0446Z" fill="white"/>
+<path d="M-6 8H29V14H-6V8Z" fill="white"/>
+<path d="M8 0H14V22H8V0Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M27.6549 0L14.6397 7.85714H17.6902L29 1.03007V0H27.6549ZM6.10523 7.85714L-6 0.549214V2.39093L3.05386 7.85714H6.10523ZM29 20.3461L18.7243 14.1429H21.7749L29 18.5044V20.3461ZM5.07114 14.1429L-6 20.8261V22H-4.89273L8.1217 14.1429H5.07114ZM29 9.42857H-6V12.5714H29V9.42857Z" fill="#E53935"/>
+<path d="M9.90918 0H13.091V22H9.90918V0Z" fill="#E53935"/>
+</g>
+</svg>

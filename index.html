@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#030AAC">
+		<meta name="theme-color" content="#030AAC">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/chartist.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/socialstory.css">
+
+		<link rel="stylesheet" href="css/response_1119.css" media="(max-width: 1119px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont">
+						<div class="header_top row">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+								<div class="name"><span>alfaposting</span></div>
+							</div>
+							<div class="langs">
+								<select name="">
+									<option value="1" data-content="<img src='images/lang_rus.svg' alt=''></option><span>RUS</span>" selected></option>
+	
+									<option value="2" data-content="<img src='images/lang_eng.svg' alt=''></option><span>ENG</span>"></option>
+	
+									<option value="3" data-content="<img src='images/lang_usa.svg' alt=''></option><span>USA</span>"></option>
+								</select>
+							</div>
+							
+							<div class="header_btn">
+								<a href="/" class="deposit_btn btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+									<span>Оплатить</span>
+								</a>
+								<a href="/" class="support_btn btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_support"></use></svg>
+									<span>Поддержка</span>
+								</a>	
+								<a href="/" class="settings_btn btn circle">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_settings"></use></svg>
+								</a>
+								<button class="logout_btn btn circle">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_logout"></use></svg>
+								</button>
+							</div>
+						</div>
+
+						<div class="header_bottom row">
+							<div class="header_bottom_links">
+								<a href="#">Планировщик постов</a>
+								<a href="#" class="active">Перехват клиентов</a>
+								<a href="#">Промо-сайт</a>
+							</div>
+							<div class="balance">
+								Подписка оплачена до: <b>14 августа 2021</b>
+							</div>
+							<div class="balance_mob" style="display: none;">
+								<div class="balance_mob-text">Подписка до:</div>
+								<div class="balance_mob-date">14.08.2021</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+				<section class="block">
+					<div class="cont">
+						<div class="wrapper">
+							<div class="block_data">
+								<div class="head">
+									<div class="block_title">
+										<div class="sort">
+											<select name="">
+												<option value="0">Название акаунта</option>
+												<option value="1">Вариант 1</option>
+												<option value="2">Вариант 2</option>
+												<option value="3">Вариант 3</option>
+											</select>
+										</div>
+										<button class="add_btn btn circle modal_link" data-content="#add_company_modal">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+										</button>
+									</div>
+									<div class="links_container">
+										<div class="block_text">Показать:</div>
+										<div class="links">
+											<a href="#" class="active">Все</a>
+											<a href="#" class="links_counter">Запланированные
+												<span>15</span>
+											</a>
+											<a href="#">Опубликованные</a>
+										</div>
+									</div>	
+								</div>		
+								<div class="block_box">
+									<div class="block_box-cont">
+										<div class="block_box-img">
+											<img src="images/tmp/drel.jpg" alt="">
+											<a href="#" class="block_box-social">
+												<img src="images/insta.svg" alt="">
+											</a>
+										</div>
+										<div class="block_box-content ">
+											<div class="block_box-account block_box-account_hide">
+												<div class="block_box-account-wrap">
+													<div class="block_box-account-title">Название аккаунта</div>
+													<a href="#" class="block_box-social-mob" style="display: none;">
+														<img src="images/insta.svg" alt="">
+													</a>
+												</div>
+												<div class="block_box-img-mob" style="display: none;">
+													<img src="images/tmp/drel.jpg" alt="">
+												</div>
+											</div>	
+											<div class="block_box-account">
+												<div class="block_box-account-description">
+													<div class="img_avatar"><img src="images/avatar.png" alt=""></div>
+													<div class="block_box-account-texts">
+														<div class="block_box-account-text"><b>Название аккаунта</b> Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.</div>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэгодин</a>
+														<a href="#">#хэштэгдва</a>
+														<a href="#">#хэштэг</a>	
+													</div>
+												</div>
+											</div>		
+											
+										</div>
+										<div class="block_box-content block_box-content2">
+											<div class="block_box-data">Время публикации:<br> <b>14 августа в 15:45</b></div>
+
+											<div class="stories">
+												<div class="stories_descr"  onclick="socialStory.launch();">
+													<div class="stories_title-avatar">
+														<img src="images/avatar.png" alt="">
+													</div>
+													<div class="stories_title" >Stories</div>
+												</div>
+
+
+												<!-- <button type="button" class="stories_btn btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+													<span>Смотреть</span>
+												</button> -->
+											</div>
+
+
+											<div class="block_buttons">
+												<div class="block_buttons-top">
+													<a href="/" class="block_buttons_btn btn">
+														<svg class="icon icon1"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<span>Одобрить</span>
+													</a>
+												</div>
+												<div class="block_buttons-top">
+													<a href="/" class="block_buttons_btn btn">
+														<svg class="icon icon2"><use xlink:href="images/sprite.svg#ic_error"></use></svg>
+														<span>Отклонить</span>
+													</a>
+												</div>
+												<div class="block_buttons-bottom">
+													<a href="/" class="block_buttons_btn btn modal_link" data-content="#modal_correction">
+														<svg class="icon icon3"><use xlink:href="images/sprite.svg#ic_correction"></use></svg>
+														<span>Исправить</span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									
+								</div>
+
+								<div class="block_box">
+									<div class="block_box-cont">
+										<div class="block_box-img">
+											<img src="images/tmp/space.jpg" alt="">
+											<div class="block_box-socials">
+												<a href="#" class="block_box-social">
+													<img src="images/vk.svg" alt="">
+												</a>
+												<a href="#" class="block_box-social">
+													<img src="images/insta.svg" alt="">
+												</a>
+											</div>											
+										</div>
+										<div class="block_box-content">
+											<div class="block_box-account block_box-account_hide">
+												<div class="block_box-account-wrap">
+													<div class="block_box-account-title">Название аккаунта</div>
+													<div class="block_box-socials-mob">
+														<a href="#" class="block_box-social-mob" style="display: none;">
+															<img src="images/vk.svg" alt="">
+														</a>	
+														<a href="#" class="block_box-social-mob" style="display: none;">
+															<img src="images/insta.svg" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="block_box-img-mob" style="display: none;">
+													<img src="images/tmp/space.jpg" alt="">
+												</div>
+											</div>	
+											<div class="block_box-account">
+												<div class="block_box-account-description">
+													<div class="img_avatar"><img src="images/avatar.png" alt=""></div>
+													<div class="block_box-account-texts">
+														<div class="block_box-account-text"><b>Название аккаунта</b> Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.</div>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэгодин</a>
+														<a href="#">#хэштэгдва</a>
+														<a href="#">#хэштэг</a>	
+													</div>
+												</div>
+											</div>	
+										</div>
+
+										<div class="block_box-content block_box-content2">
+											<div class="block_box-data">Будет опубликовано: <b>14 августа в 15:45</b></div>
+
+											<div class="stories">
+												<div class="stories_descr"  onclick="socialStory.launch();">
+													<div class="stories_title-avatar">
+														<img src="images/avatar.png" alt="">
+													</div>
+													<div class="stories_title" >Stories</div>
+												</div>
+
+
+												<!-- <button type="button" class="stories_btn btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+													<span>Смотреть</span>
+												</button> -->
+											</div>
+
+
+											<div class="block_buttons">
+												<div class="block_buttons-top">
+													<a href="/" class="block_buttons_btn block_buttons_btn1 btn">
+														<svg class="icon icon1"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<span>Одобрен</span>
+													</a>
+												</div>					
+											</div>
+										</div>		
+									</div>	
+								</div>
+
+								<div class="block_box">
+									<div class="block_box-cont">
+										<div class="block_box-img">
+											<img src="images/tmp/space.jpg" alt="">
+											<div class="block_box-socials">
+												<a href="#" class="block_box-social">
+													<img src="images/vk.svg" alt="">
+												</a>
+												<a href="#" class="block_box-social">
+													<img src="images/insta.svg" alt="">
+												</a>
+											</div>											
+										</div>
+										<div class="block_box-content">
+											<div class="block_box-account block_box-account_hide">
+												<div class="block_box-account-wrap">
+													<div class="block_box-account-title">Название аккаунта</div>
+													<div class="block_box-socials-mob">
+														<a href="#" class="block_box-social-mob" style="display: none;">
+															<img src="images/vk.svg" alt="">
+														</a>	
+														<a href="#" class="block_box-social-mob" style="display: none;">
+															<img src="images/insta.svg" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="block_box-img-mob" style="display: none;">
+													<img src="images/tmp/space.jpg" alt="">
+												</div>
+											</div>	
+											<div class="block_box-account">
+												<div class="block_box-account-description">
+													<div class="img_avatar"><img src="images/avatar.png" alt=""></div>
+													<div class="block_box-account-texts">
+														<div class="block_box-account-text"><b>Название аккаунта</b> Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.</div>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэгодин</a>
+														<a href="#">#хэштэгдва</a>
+														<a href="#">#хэштэг</a>	
+													</div>
+												</div>
+											</div>	
+										</div>
+
+										<div class="block_box-content block_box-content2">
+											<div class="block_box-data">Будет опубликовано: <b>14 августа в 15:45</b></div>
+
+											<div class="stories">
+												<div class="stories_descr"  onclick="socialStory.launch();">
+													<div class="stories_title-avatar">
+														<img src="images/avatar.png" alt="">
+													</div>
+													<div class="stories_title" >Stories</div>
+												</div>
+
+
+												<!-- <button type="button" class="stories_btn btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+													<span>Смотреть</span>
+												</button> -->
+											</div>
+
+
+											<div class="block_buttons">
+												<div class="block_buttons-top">
+													<a href="/" class="block_buttons_btn block_buttons_btn3 btn">
+														<svg class="icon icon3"><use xlink:href="images/sprite.svg#ic_correction"></use></svg>
+														<span>Правки</span>
+													</a>
+												</div>					
+											</div>
+										</div>		
+									</div>	
+								</div>
+
+								<div class="block_box">
+									<div class="block_box-cont wrap_slider">
+										<div class="block_box-img">
+											<div class="slider owl-carousel">												
+												<img src="images/tmp/space.jpg" alt="">
+												<img src="images/tmp/space.jpg" alt="">
+												<img src="images/tmp/space.jpg" alt="">
+											</div>
+
+											<div class="block_box-socials">
+												<a href="#" class="block_box-social">
+													<img src="images/vk.svg" alt="">
+												</a>	
+												<a href="#" class="block_box-social block_box-social-insta">
+													<img src="images/insta.svg" alt="">
+												</a>
+											</div>
+										</div>
+
+										<div class="block_box-content">
+											<div class="block_box-account block_box-account_hide">
+												<div class="block_box-account-wrap">
+													<div class="block_box-account-title">Название аккаунта</div>
+													<div class="block_box-socials-mob">
+														<a href="#" class="block_box-social-mob" style="display: none;">
+															<img src="images/vk.svg" alt="">
+														</a>	
+														<a href="#" class="block_box-social-mob" style="display: none;">
+															<img src="images/insta.svg" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="block_box-img-mob slider owl-carousel" style="display: none;">
+													<img src="images/tmp/space.jpg" alt="">
+													<img src="images/tmp/space.jpg" alt="">
+													<img src="images/tmp/space.jpg" alt="">
+												</div>
+											</div>	
+											<div class="block_box-account">
+												<div class="block_box-account-description">
+													<div class="img_avatar"><img src="images/avatar.png" alt=""></div>
+													<div class="block_box-account-texts">
+														<div class="block_box-account-text"><b>Название аккаунта</b> Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.</div>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэг</a>
+														<a href="#">#хэштэгодин</a>
+														<a href="#">#хэштэгдва</a>
+														<a href="#">#хэштэг</a>	
+													</div>
+												</div>
+											</div>	
+										</div>
+
+										<div class="block_box-content block_box-content2">
+											<div class="block_box-data">Будет опубликовано: <b>14 августа в 15:45</b></div>
+
+											<div class="stories">
+												<div class="stories_descr"  onclick="socialStory.launch();">
+													<div class="stories_title-avatar">
+														<img src="images/avatar.png" alt="">
+													</div>
+													<div class="stories_title" >Stories</div>
+												</div>
+
+
+												<!-- <button type="button" class="stories_btn btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+													<span>Смотреть</span>
+												</button> -->
+											</div>
+
+
+											<div class="block_buttons">
+												<div class="block_buttons-top">													
+													<a href="/" class="block_buttons_btn block_buttons_btn2 btn">
+														<svg class="icon icon2"><use xlink:href="images/sprite.svg#ic_error"></use></svg>
+														<span>Отклонен</span>
+													</a>
+												</div>						
+											</div>
+										</div>		
+
+
+									</div>
+								</div>
+								<div class="mob_sep"></div>
+							</div>
+						</div>		
+					</div>						
+				</section>
+
+				<section class="block">
+					<div class="cont">
+						<div class="wrapper">
+							<div class="block_data">
+								<div class="empty">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_warning"></use></svg>
+									</div>
+
+									<div class="title">Пока нет<br> запланированных постов</div>
+
+									<button class="add_btn btn modal_link" data-content="#add_company_modal">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+										<span>Отправить заявку на подбор контента</span>
+									</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</section>
+
+				<section class="block">
+					<div class="cont">
+						<div class="wrapper">
+							<div class="block_data">
+								<div class="empty">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_filter"></use></svg>
+									</div>
+
+									<div class="title">В этом фильтре<br> ничего нет</div>
+
+									<button class="back_btn btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_back"></use></svg>
+										<span>Вернуться назад</span>
+									</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<footer>
+				<div class="cont">
+					<div class="row">
+						<div class="logo">
+							<img src="images/logo2.svg" alt="">
+							<div class="name">alfatarget.com</div>
+						</div>
+
+						<div class="phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							<a href="tel:88001231213">8(800)123-12-13</a>
+						</div>
+
+						<div class="email">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+							<a href="mailto:info@alfatarget.com">info@alfatarget.com</a>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="copyright">Copyright &copy; 2020 alfatarget.com Все права защищены</div>
+						<div class="privacy_ploicy">
+							<a href="/">Политика конфедициальности</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<div class="overlay"></div>
+		</div>
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+		<section class="modal" id="add_company_modal">
+			<div class="logo">
+				<img src="images/logo.svg" alt="">
+				<div class="name"><span>alfaposting</span>.com</div>
+			</div>
+			<div class="modal_title">Новый аккаунт для сопровождения</div>
+			<div class="modal_desc">Мы испольузем Яндекс.Кассу для приема платежей, не передаем данные третьи лицам, а все платежи надежно защищены и подтверждаются по SMS. Если вам необходим счет на организацию или другие способы оплаты, обратитесь к нашему менеджеру по тел. +7 495 777 9152</div>
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="columns row">
+						<div class="line">
+							<div class="label">Логин:</div>
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Значение поля">
+							</div>
+						</div>
+						<div class="line">
+							<div class="label">Пароль:</div>
+
+							<div class="field">
+								<input type="password" name="" value="" class="input" placeholder="Значение поля">
+							</div>
+						</div>						
+						<div class="line width3of3">
+							<div class="label">Ваши пожелания по продвижению:</div>
+							<textarea placeholder="Значение поля"></textarea>
+						</div>
+					</div>
+					<div class="submit">
+						<button type="submit" class="send_btn btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+							<span>Отправить</span>
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="modal modal_correction" id="modal_correction">
+			<div class="modal_title">Отправить на исправление</div>
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="columns row">
+						<div class="line width3of3">
+							<div class="label">Что вам не понравилось?</div>
+							<textarea class="height" placeholder="Опишите, чем вам не понравился пост. Например, картинкой, текстом, датой публикации"></textarea>
+						</div>
+						<div class="line width3of3">
+							<div class="label">Корректировки:</div>
+							<textarea placeholder="Если у вас есть какие то корректировки по тексту, введите их здесь"></textarea>
+						</div>
+						<div class="line width3of3">
+							<div class="label">Изменить дату публикации:</div>
+							<textarea class="height" placeholder="Если вы хотите изменить дату публикации поста, напишите ее здесь в свободной форме. Например, завтра после обеда."></textarea>
+						</div>
+					</div>
+					<div class="form file-uploader" style="display: none;">
+						<div class="file">
+							<div class="file-chooser">
+								<input class="file-chooser__input" name="file[]" type="file" id="file">
+								<label for="file">ЗАГРУЗИТЬ</label>
+							</div>
+							<div class="list file-uploader__message-area">
+							</div>
+						</div>
+					</div>
+					
+					<div class="bottom">
+						<div class="file file-uploader">
+							<div class="field file-chooser">
+								<input class="file-chooser__input" name="file[]" type="file" id="file">
+								<label for="file" class="file_btn btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_file"></use></svg>
+									<span>Прикрепить файл</span>
+								</label>												
+								<div class="selected list file-uploader__message-area">
+								</div>
+							</div>
+						</div>
+						<div class="submit">
+							<button type="submit" class="send_btn btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+								<span>Отправить</span>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<div id="storytime"></div>
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/row-grid.min.js"></script>
+		<script src="js/chartist.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/file.js"></script>
+		<script src="js/socialstory.js"></script>
+		<script>
+			var myPlaylist = [
+			{
+				"title": "Social Story",
+				"date": "2 hours ago",
+				"url": "media/IMG_4627.mov",
+				"icon": "media/small-icon.jpg"
+			},
+			{
+				"title": "Social Story",
+				"date": "1 day ago",
+				"url": "media/IMG_4628.mov",
+				"icon": "media/small-icon.jpg"
+			},
+			{
+				"title": "Social Story",
+				"date": "1 day ago",
+				"url": "media/IMG_4629.mov",
+				"icon": "media/small-icon.jpg"
+			}
+			];
+
+			var socialStory = new Story({
+				playlist: myPlaylist
+			});
+
+		  </script>
+	</body>
+</html>

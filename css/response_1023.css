@@ -1,0 +1,312 @@
+@media (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .blocks.row > *.width1of3,
+    .blocks.row > *.width2of3,
+    .blocks.row > *.width3of3
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .block_data .block_title
+    {
+        font-size: 21px;
+        line-height: 23px;
+    }
+
+
+    .block_data .empty > .icon > *
+    {
+        width: 58px;
+        height: 58px;
+    }
+
+    .block_data .empty .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    .block_data .chart
+    {
+        height: 240px;
+    }
+
+
+
+    .block_data table td
+    {
+        height: auto;
+    }
+
+    .block_data table td.val.multiline
+    {
+        width: 75%;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .mob_sep
+    {
+        display: block;
+    }
+
+    header .mob_sep + *
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .item
+    {
+        font-size: 16px;
+        line-height: 18px;
+
+        padding: 20px 80px 20px 20px;
+    }
+
+    .stats .item .val
+    {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .stats .item .icon
+    {
+        right: 20px;
+    }
+
+
+
+    /*---------------
+        Companies
+    ---------------*/
+    .companies table thead
+    {
+        display: none;
+    }
+
+    .companies table tr
+    {
+        display: flex;
+
+        border-radius: 7px;
+        background: #edf2f7;
+
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+
+    .companies table tr + tr
+    {
+        margin-top: 20px;
+    }
+
+    .companies table td
+    {
+        position: relative;
+
+        display: block;
+
+        width: 33.333%;
+        padding: 36px 20px 15px;
+
+        border-bottom: 1px solid #cad4de;
+    }
+
+    .companies table td:before
+    {
+        color: #a7afb7;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+
+        position: absolute;
+        top: 15px;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        padding: 0 20px;
+
+        content: attr(data-column);
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .companies table tbody tr:nth-child(odd) td
+    {
+        background: none;
+    }
+
+    .companies table td.status span
+    {
+        display: inline-block;
+
+        vertical-align: middle;
+    }
+
+    .companies table td.action
+    {
+        padding-top: 15px;
+
+        border: none;
+    }
+
+    .companies table td.action a
+    {
+        line-height: 32px;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .companies table .aligncenter
+    {
+        text-align: left;
+    }
+
+
+
+    /*---------------------------
+        Balance_replenishment
+    ---------------------------*/
+    .balance_replenishment .balance b
+    {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+
+
+
+    /*------------
+        Dialog
+    ------------*/
+    .dialog .block_head .title
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .dialog .block_head .title + .btn
+    {
+        margin-left: 0;
+    }
+
+
+    .dialog .messages > * + *
+    {
+        margin-top: 20px;
+    }
+
+    .dialog .messages .message
+    {
+        max-width: 90%;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth
+    {
+        padding: 30px;
+    }
+
+    .auth .logo
+    {
+        margin-bottom: 20px;
+    }
+
+    .auth .title
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button + button
+    {
+        margin-left: 5px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 30px;
+    }
+
+
+
+    .account_links > *, .competitor_links > * {
+        width: calc(100%/3 - 14px);
+    }
+}
